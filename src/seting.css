@@ -1,0 +1,96 @@
+ 
+  
+.modal {
+    position: fixed;
+    z-index: 50;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+}
+
+.modal-content{
+    padding: 10px;
+    width: 30%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    background-color: #DEEBF8;
+    color: whitesmoke;
+}
+
+
+.modal-inner{
+    width: 290px;
+    margin: 0 auto;
+}
+
+.modal-inner-loading{
+    text-align: center;
+}
+
+ 
+
+.close-modal-btn-container{
+    text-align: right;
+    margin: 9px;
+}
+
+.modal-close-btn {
+  font-size: 22px;
+  font-weight: bold;
+  background-color: transparent;
+  border: 1px solid transparent;
+  color: #293264;
+}
+
+.modal-close-btn:hover,
+.modal-close-btn:active{
+    color: red;
+    cursor: pointer;
+}
+
+ 
+
+.modal-choice-btns{
+    margin-top: 10px;
+    padding: 8px 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.modal-btn{
+    padding: 10px 24px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #293264;
+    color: whitesmoke;
+    border: none;
+}
+
+
+input{
+    margin-top: 10px; 
+    border: 1px solid #212529;
+    padding: 10px;
+    width: 91%;
+    border-radius: 3px;
+   
+}
+
+select{
+    margin-top: 10px; 
+    border: 1px solid #212529;
+    padding: 10px;
+    width: 100%;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+
+label{
+    margin-bottom: 10px;
+    color: #293264;
+}
